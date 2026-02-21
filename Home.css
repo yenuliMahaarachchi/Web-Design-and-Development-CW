@@ -1,0 +1,98 @@
+
+    .logo{
+        height: 250px;
+        width: 250px;
+        margin: -70px;
+    }
+
+    h1{
+        font-size: 60px;
+        margin: -2px;
+        
+    }
+
+    h2{
+        text-align: center;
+    }
+
+   .mission{
+    font-size:18px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -5px;
+   }
+
+    h3{
+        font-size:30px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 5px;
+
+    }
+
+   
+
+    .paragraph-box {
+        border: 2px solid #000;
+        padding: 5px;
+        margin-top:20px; 
+        background-color: #a1b7ca;
+        border-radius: 8px;
+        width: 80%;
+        margin-left: 10%;
+        height: 20%;
+    }
+
+
+
+.img {
+    display: flex;
+    gap: 65px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.img img{
+    width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in-out;
+}
+.img img:hover {
+    transform: scale(1.05);
+}
+
+.content-section {
+    padding:10px;
+}
+
+.content-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.content-card {
+    width: 250px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.content-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.content-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+

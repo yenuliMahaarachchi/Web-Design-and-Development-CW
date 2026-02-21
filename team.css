@@ -1,0 +1,76 @@
+
+
+
+h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top:70px;
+        margin-bottom:40px;
+        color:black;
+        font-size: 25px;
+}
+
+
+.team-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    
+}
+
+
+.team-member {
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+    
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover img {
+    transform: scale(1.1); 
+}
+
+.info-box {
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    background-color:palegoldenrod;
+    padding: 10px;
+    border-radius:6px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, bottom 0.3s ease;
+}
+
+.team-member:hover .info-box {
+    opacity: 1;
+    visibility: visible;
+    bottom: -140px;
+}
+
+.info-box h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.info-box p {
+    margin: 4px ;
+    font-size: 16px;
+    color:darkslategray;
+}
+.info-box ul{
+    margin: 4px ;
+    font-size: 16px;
+    color:darkslategrey;
+    text-align: left;
+}
+

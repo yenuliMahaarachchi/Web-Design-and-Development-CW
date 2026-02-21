@@ -1,0 +1,166 @@
+
+
+/* Container */
+.container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background-color: #1391db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+p{
+    margin: 17px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+/* Progress bars */
+.progress-bar {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 8px;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 10px;
+}
+
+.communication { width: 20%; background-color: rgb(240, 108, 108); }
+.teamwork { width: 50%; background-color: lightgreen; }
+.it { width: 70%; background-color: #f39c12; }
+
+
+.content {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.bio {
+    background-color: #1391db;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.info-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.volunteering {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: -400px;
+}
+
+.un-goals {
+    background-color: #1391db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -400px;
+    margin-top: 30px;
+}
+
+.un-goals h2 {
+    margin-bottom: 20px;
+}
+
+.goals {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goals img {
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+}
+
+.contact {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: -400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, 
+.contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+footer{
+    margin-top: 60px;
+    width:195%;
+    margin-left:-600PX;
+    margin-bottom: -20px;
+    
+}   
+.icon{
+ width: 50px; 
+ height: 50px; 
+ border: 2px solid black; 
+ border-radius: 50%; 
+ padding: 5px; 
+ background-color: white;
+}
+
+
+

@@ -1,0 +1,39 @@
+
+
+svg {
+    width: 100%;
+    max-width: 1600px;
+    margin-left: -70px;
+}
+
+/* Node styles */
+.node {
+    fill: #ffffff;
+    stroke: #6a0dad;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: fill 0.3s, stroke 0.3s;
+    
+}
+
+/* Hover effect */
+.node:hover {
+    fill: #d8b9f2;
+    stroke: #4a0072;
+}
+
+/* Text styling */
+text {
+    font-size: 18px;
+    pointer-events: none;
+    fill: rgb(105, 198, 227);
+    font-weight: bold;
+}
+
+/* Line styling */
+.line {
+    stroke: #6a0dad;
+    stroke-width: 2;
+}
+
+

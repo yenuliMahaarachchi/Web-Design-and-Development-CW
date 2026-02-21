@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Page</title>
+    <link rel="stylesheet" href="../CSS/volunteer.css">
+    <link rel="stylesheet" href="../CSS/Global.css">
+</head>
+<body>
+    <a href="#top" class="top-btn">⬆ Top</a>
+    <header>
+        <h1>Volunteer Opportunities</h1>
+        <div class="nav">
+            <ul class="navlist">
+                <li><a href="../HTML/home.html">Home</a></li>
+                <li><a href="../HTML/splash.html" >Splash Screen</a></li>
+                <li><a href="../HTML/home.html#content" >Content</a></li>
+                <li><a href="../HTML/volunteer.html">Volunteer</a></li>
+                <li><a href="../HTML/table.html">Table page</a></li>
+                <li><a href="../HTML/profile.html">User profile</a></li>
+                <li><a href="../HTML/sitemap.html">Sitemap</a></li>
+                <li><a href="../HTML/team.html" >Team page</a></li>
+                <li><a href="../HTML/feedback.html" >Feedback</a></li>
+
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button >🔍</button>
+            </div>
+        </div>
+    </header>
+    
+    <section class="volunteer-section">
+        <h2>Explore Volunteering Programs</h2>
+        <select class="filter-dropdown">
+            <option>Most Popular</option>
+            <option>Newest</option>
+            <option>Highest Rated</option>
+        </select>
+        <div class="scrollable-container">
+            <div class="card"> 
+                <img src="../Images/volunteerimg1.jpg" alt="Program 1">
+                <h3>Clean Water for Communities</h3>
+                <p>Be part of the mission to bring safe drinking water to those in need</p>
+                <button class="button">Learn More</button>
+                <button class="button">Apply</button>
+            </div>
+            <div class="card"> 
+                <img src="../Images/volunteerimg2.jpg" alt="Program 2">
+                <h3>River and Beach Cleanup Initiative</h3>
+                <p>Join our cleanup efforts to protect our rivers and oceans</p>
+                <button class="button">Learn More</button>
+                <button class="button">Apply</button>
+            </div>
+            <div class="card"> 
+                <img src="../Images/volunteerimg3.jpg" alt="Program 3">
+                <h3>Hygiene Education and Awareness Campaign</h3>
+                <p>Help educate communities on hygiene and sanitation</p>
+                <button class="button">Learn More</button>
+                <button class="button">Apply</button>
+            </div>
+            <div class="card"> 
+                <img src="../Images/volunteerimg4.jpg" alt="Program 4">
+                <h3>Water Conservation and Rainwater Harvesting</h3>
+                <p>Be a water conservation advocate</p>
+                <button class="button">Learn More</button>
+                <button class="button">Apply</button>
+            </div>
+        </div>
+
+        
+        <h3>Program Information</h3>
+        <table class="volunteer-table">
+            <thead>
+                <tr>
+                    <th>Program Name</th>
+                    <th>Location</th>
+                    <th>Duration</th>
+                    <th>Required Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Clean Water for Communities</td>
+                    <td>Africa, Asia</td>
+                    <td>3 Months</td>
+                    <td>Water Management</td>
+                </tr>
+                <tr>
+                    <td>River and Beach Cleanup</td>
+                    <td>Global</td>
+                    <td>2 Weeks</td>
+                    <td>Environmental Awareness</td>
+                </tr>
+                <tr>
+                    <td>Hygiene Education</td>
+                    <td>Global</td>
+                    <td>1 Month</td>
+                    <td>Health Education</td>
+                </tr>
+                <tr>
+                    <td>Rainwater Harvesting</td>
+                    <td>Various Regions</td>
+                    <td>6 Months</td>
+                    <td>Engineering, Sustainability</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="reviews-section">
+        <h2>Ratings & Reviews</h2>
+        <p>9.4/10 Exceptional (120 Reviews)</p>
+        <button class="button">See all 120 Reviews</button>
+        <div class="review-cards">
+            <div class="review-card">
+                <h3>10/10 - Amazing Experience!</h3>
+                <p>Volunteering here was life-changing! <a href="#">See More</a></p>
+                <span>- Sanuthi Perera, Jan 2025</span>
+            </div>
+            <div class="review-card">
+                <h3>9/10 - Great Initiative!</h3>
+                <p>I learned so much while helping others. <a href="#">See More</a></p>
+                <span>- Madara Silva, Dec 2024</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback-form">
+        <h2>Submit Your Feedback</h2>
+        <textarea placeholder="Write your review here..."></textarea>
+        <div class="rating-input">⭐⭐⭐⭐⭐</div>
+        <button class="submit" onclick="handleSubmit()">Submit Feedback</button>
+        <button class="cancel">Cancel</button>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="#"><img src="../Images/instagram.png" alt="ig"></a>
+                <a href="#"><img src="../Images/facebook.png" alt="fb"></a>
+                <a href="#"><img src="../Images/linkin.png" alt="linkin"></a>
+                <a href="#"><img src="../Images/twitter.png" alt="twitter"></a>
+            </div>
+            <ul class="footer-menu">
+                <li><a href="../HTML/home.html">Home</a></li>
+                <li><a href="../HTML/volunteer.html">Volunteer</a></li>
+                <li><a href="../HTML/table.html">Table page</a></li>
+                <li><a href="../HTML/profile.html">User profile</a></li>
+                <li><a href="../HTML/sitemap.html">Sitemap</a></li>
+                <li><a href="../HTML/team.html" >Team page</a></li>
+                <li><a href="../HTML/feedback.html" >Feedback</a></li>
+            </ul>
+            <p class="footerp"><strong>Created by student 3 | </strong><a href="../HTML/pageEditor_ST3.html">View Page Editor</a></p>
+        </div>
+    </footer>
+
+    <script src="../JavaScript/volunteer.js"></script>
+   
+</body>
+</html>

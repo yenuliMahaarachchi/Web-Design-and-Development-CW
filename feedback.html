@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../CSS/Global.css">
+        <link rel="stylesheet" href="../CSS/feedback.css">
+
+        <meta charset="UTF-8">
+        <title>Feedback</title>
+        
+
+    
+    </head>
+    <body>
+        <a href="#top" class="top-btn">⬆ Top</a>
+        <header id="top">
+            <h1>FEEDBACK FORM</h1>
+            <div class="nav">
+                <ul class="navlist">
+                    <li><a href="../HTML/home.html">Home</a></li>
+                    <li><a href="../HTML/splash.html" >Splash Screen</a></li>
+                    <li><a href="../HTML/home.html#content" >Content</a></li>
+                    <li><a href="../HTML/volunteer.html">Volunteer</a></li>
+                    <li><a href="../HTML/table.html">Table page</a></li>
+                    <li><a href="../HTML/profile.html">User profile</a></li>
+                    <li><a href="../HTML/sitemap.html">Sitemap</a></li>
+                    <li><a href="../HTML/team.html" >Team page</a></li>
+                    <li><a href="../HTML/feedback.html" >Feedback</a></li>
+
+                </ul>
+                <div class="search-container">
+                    <input type="text" id="search" placeholder="Search...">
+                    <button >🔍</button>
+                </div>
+            
+            </div></header>
+            <form id="myForm">
+                <fieldset class="fieldset1 legend">
+                    <legend><img src="../Images/feedbackicon1.png" alt="icon" class="icon">
+                        <span class="text">Personal Details</span>
+                    </legend>
+                    <p>Full Name:<br><input type="text" name="name" id="fullname" placeholder="Enter your full name" required></p>
+                    <p>Email:<br><input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                        <span id="emailError" class="error-message"></span>
+                    </p>
+                    <p>Phone number:<br><input type="tel" name="number" id="phonenumber" maxlength="10" placeholder="Enter a valid phone number" required><br>
+                        <span id="phoneError" class="error-message"></span>
+                    </p>
+                    <p>Address:<br><textarea rows="2" cols="182" id="address" placeholder="Enter your address" required></textarea></p>
+                </fieldset>
+            <p>
+            <fieldset class="fieldset2 legend">
+            <legend><img src="../Images/feedbackicon2.png" alt="icon" class="icon">
+                <span class="text" >Feedback Details</span></legend><ol>
+            <li>Was this your first time visiting?
+                <input type="radio" name="ft">Yes
+                <input type="radio" name="ft">No</li>
+
+            <li><p>How did you find out about our website?</p>
+                <input list="datalist" id="data">
+                <datalist id="datalist">
+                    <option value="Social Media">
+                    <option value="Search Engine">
+                    <option value="Word of Mouth">
+                    <option value="Other"></option>
+                </datalist></li>
+            
+            <li><p><label for="data">Did the website help you learn more about clean water and sanitation?</label>
+                <select class="select">
+                    <option value="Yes,I achieved">Yes, very informative</option>
+                    <option value="Partially">Neutral</option>
+                    <option value="No,I didnt ">No, not informative</option>
+                </select><br></li>
+
+            <li><p>What issues have you encountered while using our website?</p>
+
+            <input type="checkbox"  name="issues" value="Slow Loading Speed">
+            Slow loading speed<br>
+
+            <input type="checkbox" name="issues" value="Broken Links or Pages">
+            Broken links or pages<br>
+
+            <input type="checkbox" name="issues" value="Difficulty Navigating">
+            Difficulty navigating the website<br>
+
+            <input type="checkbox"  name="issues" value="Poor Mobile Responsiveness">
+            Poor mobile responsiveness<br>
+
+            <input type="checkbox" name="issues" value="Errors or Bugs">
+            Errors or bugs<br>
+
+            <input type="checkbox" name="issues" value="Other">
+            Other
+        
+           
+
+            <li>
+            <label for="features" class="features">What features would you like us to add in the future?</label>
+            <select id="features" name="features" multiple size="1" class="features">
+            <option value="live_chat">Live Chat Support</option>
+            <option value="faq">Expanded FAQ Section</option>
+            <option value="video_tutorials">Video Tutorials</option>
+            <option value="dark_mode">Dark Mode Option</option>
+            </select></li>
+
+    
+    
+            <li><p><label for="feedback">Do you have any suggestions to make our website better ?</label><br>
+                <textarea id="feedback" name="feedback" maxlength="300" rows="4" cols="87" oninput="updateCounter()" placeholder="Any suggestions..."></textarea><br>
+                <span class="counter">Characters remaining: <span id="charCount">300</span></span><br>
+
+                
+        </li>
+    
+            <li><p><label for="file">Do you have any screenshots or documents related to your feedback(optional):</label><br>
+            <input type="file" id="file" name="file" accept=".jpg,.jpeg,.png,.pdf,.doc,.docx"></p></li>
+
+            <li><p><label>How would you rate your experience?</label>
+                <div class="rating">
+                    <span class="emoji">😍</span>
+                    <span class="emoji">🙂</span>
+                    <span class="emoji">😐</span>
+                    <span class="emoji">☹️</span>
+                    <span class="emoji">😡</span>
+                </div></li></ol>
+            
+        </fieldset>
+        
+        <p><h3>&nbsp;&nbsp;Date:</h3>
+            <input type="datetime-local" name="Date" required><br>
+            <button type="submit" class="button"> Submit Feedback</button>
+        </form>
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="#"><img src="../Images/instagram.png" alt="ig"></a>
+                <a href="#"><img src="../Images/facebook.png" alt="fb"></a>
+                <a href="#"><img src="../Images/linkin.png" alt="linkin"></a>
+                <a href="#"><img src="../Images/twitter.png" alt="twitter"></a>
+            </div>
+            <ul class="footer-menu">
+                <li><a href="../HTML/home.html">Home</a></li>
+                <li><a href="../HTML/volunteer.html">Volunteer</a></li>
+                <li><a href="../HTML/table.html">Table page</a></li>
+                <li><a href="../HTML/profile.html">User profile</a></li>
+                <li><a href="../HTML/sitemap.html">Sitemap</a></li>
+                <li><a href="../HTML/team.html" >Team page</a></li>
+                <li><a href="../HTML/feedback.html" >Feedback</a></li>
+            </ul>
+            <p class="footerp"><strong>Created by student 3 | </strong><a href="../HTML/pageEditor_ST3.html">View Page Editor</a></p>
+        </div>
+    </footer>
+
+
+        <script src="../JavaScript/feedback.js">
+       
+    </script>
+    
+
+    
+      
+</body>
+
+
+</html>
